@@ -1,11 +1,3 @@
-/*
-    !!!
-
-    Penser à une application concrète du classlist.toggle
-
-    !!!
-*/
-
 // ----- Récuperation des éléments -----
 //Introduction
 const upIntro = document.querySelector("#UpIntro");
