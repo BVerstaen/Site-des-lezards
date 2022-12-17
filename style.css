@@ -5,9 +5,6 @@
 body{
     background-color: rgb(44, 44, 44);
 }
-html, body{
-    scroll-behavior:smooth;
-}
 
 button{
     background-color: whitesmoke;
