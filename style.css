@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(44, 44, 44);
+}
+html, body{
+    scroll-behavior:smooth;
+}
+
+button{
+    background-color: whitesmoke;
+    font-size: 20px;
+    color: blue;
+
+    padding: 1%;
+    border: solid 5px darkblue;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+
+
+/* Blague d'introduction */
+.title{
+    opacity: 0%;
+    background-color: darkblue;
+}
+.appearTitle{
+    transition: all 4s;
+    padding: 1em;
+    opacity: 80%;
+}
+.Introbutton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7em;
+}
+.hideJoke{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0%;
+
+    background-color: blue;
+}
+.hideJoke img{
+    width: 150px;
+    height: 150px;
+}
+.hideJoke h2{
+    color: whitesmoke;
+}
+.AppearJoke{
+    transition: all 2s;
+    opacity: 70%;
+}
+
+
+
+/* Page "principal" & Barre de défilement*/
+#ScrollBar{
+    background-color: #839c49;
+    opacity: 50%;
+	height: 100px;
+	width: 0;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+main {
+    background-color: rgb(44, 44, 44);
+    height: 4000px;
+    margin-top: 30em;
+    padding-top: 10em;
+}
+section{
+    margin-top: 10em;
+}
+#titreMain h1{
+    font-size: 3em;
+}
+#titreMain h2{
+    margin-bottom: 3em;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+
+
+/* Article */
+article {
+    display: flex;
+    gap: 5px;
+    height: 55em;
+    margin-top: 2em;
+}
+article p{
+    font-size: 2em;
+    color: lightblue;
+}
+article img{
+    width: 50em;
+    height: 40em;
+    border: solid 10px saddlebrown;
+}
+.articleInstruction{
+    text-align: center;
+    font-size: 3em;
+    color: red;
+}
+#movingLizard{
+    position: absolute;
+    width: 15em;
+    height: 10em;
+}
+
+
+
+/* Terrain des lézards*/
+ul{
+    list-style: none;
+}
+#GameLizard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    margin-bottom: 5em;
+}
+.LizardImg{
+    width: 15em;
+    height: 10em;
+
+    position: absolute;
+}
+#GameLizard h2{
+    font-size: 3em;
+    color: white;
+}
+#GameLizard p{
+    font-size: 1.5em;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+}
+nav button{
+    margin-left: 1em;
+}
+#Terrain{
+    height: 50em;
+    border: solid 3px brown;
+}
+
+/* Titre Lézard */
+#titleLizard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#titleLizard p{
+    margin-top: 6em;
+    font-size: 1.5em;
+    color: white;
+}
+#nameLizard{
+    font-size: 3em;
+    transition: all 2s;
+}
+.lizardColor{
+    color: greenyellow;
+}   
+.lizardSize{
+    transform: scale(5);
+}
+.lizardBkColor{
+    background-color: darkcyan;
+}
+
+/*couleur arrière-plan*/
+#backgroundSection {
+    text-align: center;
+}
+
+/*Footer*/
+footer h6{
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1em;
+}

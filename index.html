@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le site des lézards</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="images/icon.jpg">
+</head>
+
+<body>
+    <header id="ScrollBar"></header>
+
+    <!-- Introduction -->
+    <h1 class="title">Bienvenue sur le site des lézards</h1>
+    <div id="PrankIcon" class="hideJoke">
+        <img src="images/Smiley.png" alt="Un smiley">
+        <h2>Appuyez sur "F5" (ou actualiser) pour recommancer</h2>
+    </div>
+
+
+    <a><button id="UpIntro" class="Introbutton">Accéder au site</button></a>
+    <a href="https://www.youtube.com/watch?v=daFv-csZjjk&ab_channel=MASTODOC" target="_blank"><button id="DownIntro" class="Introbutton">Voir une vidéo sur les lézards</button></a>
+
+
+
+    <!-- Main -->
+    <main>
+        <div id="titreMain">
+            <h1>Félicitations !</h1>
+            <h2>Vous pouvez maintenant faire des activités sur les lézards</h2>
+        </div>
+
+
+        <h2>Article sur les lézards</h2>
+        <article>
+            <img src="images/article.jpg" alt="Image de lézard">
+            
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi consequatur minima quas porro perspiciatis vel. Soluta tempora voluptatem aut mollitia in ex dolore ducimus, praesentium dolores dignissimos culpa obcaecati.
+                    <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ducimus cum totam temporibus aperiam iste ratione excepturi quas deserunt repudiandae, asperiores molestiae facere culpa officia? Nesciunt reprehenderit unde ipsa ipsam!
+                    <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ducimus cum totam temporibus aperiam iste ratione excepturi quas deserunt repudiandae, asperiores molestiae facere culpa officia? Nesciunt reprehenderit unde ipsa ipsam!
+                    <br> <br> <br> <br> <br>
+                </p>
+                
+                <p class="articleInstruction">Appuyez sur les touches Q & D pour déplacer le lézard</p>
+            </div>
+        </article>
+        <div>
+            <img src="images/lezard2.png" alt="Joueur" id="movingLizard">
+        </div>
+
+        
+
+        <section id="GameLizard">
+            <h2>Le terrain des lézards</h2>
+            <p>Appuyez sur les boutons ci-dessous pour ajouter ou supprimer des lézards</p>
+            
+            <nav>
+                <button id="LTAdd">Ajouter un lézard</button>
+                <button id="LTDeleteAll">Supprimer tous les lézards</button>
+                <button id="LTDelete">Supprimer le dernier lézard</button>
+                <button id="LTChange">Changer l'apparence des lézards</button>
+            </nav>
+
+            <div>
+                <img src="images/herbe.jpg" alt="le terrain des lézards" id="Terrain">
+                <ul id="LizardList"></ul>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="titleLizard">
+            <h2 id="nameLizard">Lézard</h2>
+            <p>Cliquez sur les boutons pour changer la couleur et la taille </p>
+            <nav>
+                <button id="changeColor">Changer la couleur</button>
+                <button id="changeSize">Changer la taille</button>
+                <button id="changeBkColor">Changer la couleur d'arrière-plan</button>
+            </nav>
+        </section>
+
+        <section id="backgroundSection">
+            <h2>Appuyez sur "G" ou sur le bouton ci-dessous pour changer aléatoirement la couleur de l'arrière-plan</h2>
+            <button id="btnBackgroundColor">Changer la couleur de l'arrière-plan</button>
+        </section>
+    </main>
+
+    <footer>
+        <h6>"Site sur les lézards" par Baptiste Verstaen</h6>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
