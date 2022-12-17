@@ -64,7 +64,7 @@ UpIntro.addEventListener("mouseover", function(){
 UpIntro.addEventListener("click", function(){
     //Stop le blocage du scroll
     lockScroll = false;
-    window.scrollTo(0, 1700);
+    window.scrollTo(0, 1400);
 })
 
 
